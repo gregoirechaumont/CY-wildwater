@@ -1,4 +1,9 @@
+#ifndef AVL_H
+#define AVL_H
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 typedef struct NoeudAVL {    // Structure d'un noeud AVL représentant une usine de traitement d'eau  
     char identifiant[100];           // ID de l'usine
